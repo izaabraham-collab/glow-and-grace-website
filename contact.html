@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Glow & Grace with a question or enquiry.">
+  <title>Glow & Grace | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics 4: replace G-XXXXXXXXXX with your own Measurement ID in all four HTML files later. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="logo" href="index.html">Glow <span>&</span> Grace</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="products.html">Shop</a><a href="about.html">Our Story</a><a class="active" href="contact.html">Contact</a></nav></header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">We would love to hear from you</p><h1>Let's <em>connect</em>.</h1><p>Have a question or just want to say hello? Send us a note.</p></section>
+    <section class="contact-layout section-wrap">
+      <div class="contact-details"><p class="eyebrow">Get in touch</p><h2>A friendly hello is always welcome.</h2><p>Use the demo enquiry form or reach us through the sample contact details below.</p><div class="contact-item"><strong>Email</strong><span>hello@glowandgrace.example</span></div><div class="contact-item"><strong>Instagram</strong><span>@glowandgrace.example</span></div><div class="contact-item"><strong>Hours</strong><span>Monday – Saturday, 10 AM – 6 PM</span></div><p class="demo-note">Sample contact details for this student project.</p></div>
+      <form class="contact-form" id="contact-form">
+        <h2>Send an enquiry</h2>
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="How can we help?" required>
+        <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+        <button class="button" type="submit">Submit demo enquiry</button>
+        <p class="form-message" id="contact-message" aria-live="polite"></p>
+        <small>This is a demonstration form only. It does not send or store your message. Please do not enter real personal information.</small>
+      </form>
+    </section>
+    <section class="newsletter section-wrap"><div><p class="eyebrow">A little note from us</p><h2>Stay in the glow.</h2><p>Try our sample newsletter sign-up interaction.</p></div><form id="newsletter-form" class="newsletter-form"><label class="visually-hidden" for="newsletter-email">Email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required><button class="button" type="submit">Sign me up</button><p id="newsletter-message" class="form-message" aria-live="polite"></p></form><small>Demo only: no subscription is created and no email is stored.</small></section>
+  </main>
+  <footer class="site-footer"><a class="logo footer-logo" href="index.html">Glow <span>&</span> Grace</a><p>Everyday skincare, with a little extra love.</p><div class="footer-links"><a href="index.html">Home</a><a href="products.html">Shop</a><a href="about.html">Our Story</a></div><small>© 2026 Glow & Grace. Student website project.</small></footer>
+</body>
+</html>

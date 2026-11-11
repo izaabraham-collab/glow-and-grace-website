@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Glow & Grace skincare collection.">
+  <title>Glow & Grace | Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics 4: replace G-XXXXXXXXXX with your own Measurement ID in all four HTML files later. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Glow <span>&</span> Grace</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="products.html">Shop</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a></nav>
+  </header>
+  <main>
+    <section class="page-hero"><p class="eyebrow">The Glow Edit</p><h1>Find your everyday <em>favourites</em>.</h1><p>Six simple skincare picks to make your routine feel a little more special.</p></section>
+    <section class="section-wrap shop-section">
+      <div class="filter-row"><span>Our collection</span><label for="category-filter">Filter by: </label><select id="category-filter"><option value="all">All products</option><option value="cleanse">Cleansers</option><option value="hydrate">Hydration</option><option value="protect">Sun care</option></select></div>
+      <div class="product-grid shop-grid">
+        <article class="product-card" data-category="cleanse"><img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=85" alt="Gentle cleanser"><div class="product-info"><p class="product-type">CLEANSE</p><h3>Gentle Glow Cleanser</h3><p>A soft daily cleanse to leave skin feeling fresh.</p><span class="price">₹449</span><button class="small-button product-action" data-product="Gentle Glow Cleanser">Explore product</button></div></article>
+        <article class="product-card" data-category="hydrate"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=85" alt="Daily Dew Serum"><div class="product-info"><p class="product-type">HYDRATE</p><h3>Daily Dew Serum</h3><p>A lightweight serum for a fresh, hydrated feel.</p><span class="price">₹699</span><button class="small-button product-action" data-product="Daily Dew Serum">Explore product</button></div></article>
+        <article class="product-card" data-category="hydrate"><img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=800&q=85" alt="Cloud Soft Moisturiser"><div class="product-info"><p class="product-type">HYDRATE</p><h3>Cloud Soft Moisturiser</h3><p>A comforting layer of everyday moisture.</p><span class="price">₹599</span><button class="small-button product-action" data-product="Cloud Soft Moisturiser">Explore product</button></div></article>
+        <article class="product-card" data-category="protect"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=85" alt="Daily sunscreen"><div class="product-info"><p class="product-type">SUN CARE</p><h3>Sunny Day SPF 50</h3><p>A daily sun-care essential for your routine.</p><span class="price">₹749</span><button class="small-button product-action" data-product="Sunny Day SPF 50">Explore product</button></div></article>
+        <article class="product-card" data-category="cleanse"><img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=85" alt="Rosewater face mist"><div class="product-info"><p class="product-type">CLEANSE</p><h3>Rosewater Face Mist</h3><p>A refreshing mist for a quick feel-good moment.</p><span class="price">₹399</span><button class="small-button product-action" data-product="Rosewater Face Mist">Explore product</button></div></article>
+        <article class="product-card" data-category="hydrate"><img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=85" alt="Overnight comfort cream"><div class="product-info"><p class="product-type">HYDRATE</p><h3>Overnight Comfort Cream</h3><p>A rich-feeling night-time moisturising step.</p><span class="price">₹799</span><button class="small-button product-action" data-product="Overnight Comfort Cream">Explore product</button></div></article>
+      </div>
+      <p class="demo-note">These are fictional sample products and prices created for an academic website demonstration.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="logo footer-logo" href="index.html">Glow <span>&</span> Grace</a><p>Everyday skincare, with a little extra love.</p><div class="footer-links"><a href="index.html">Home</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a></div><small>© 2026 Glow & Grace. Student website project.</small></footer>
+</body>
+</html>
